@@ -1,0 +1,19 @@
+{
+  "name": "example-javascriptv3-get-started-node",
+  "version": "1.0.0",
+  "description": "This guide shows you how to initialize an NPM package, add a service client to your package, and use the JavaScript SDK to call a service action.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run **/*.unit.test.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Kivie",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.554.0",
+    "@aws-sdk/credential-providers": "^3.554.0",
+    "dotenv": "^16.4.5"
+  }
+}
